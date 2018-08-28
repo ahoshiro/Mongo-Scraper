@@ -1,0 +1,17 @@
+body {
+    background-image: url("https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwi3j-LsoIzdAhVJ_IMKHbZvDhoQjRx6BAgBEAU&url=http%3A%2F%2Ffast.lunchrock.co%2Fnewspaper-background-template%2F&psig=AOvVaw3eOZPFvXYGkWIdBEZjgyRj&ust=1535425708875790");
+    padding-top: 70px;
+}
+
+.deleteNote {
+	display: inline-block;
+}
+
+.previousNotes {
+    display: inline-block;
+    width: 90%
+}
+
+#scrape {
+    margin: 8px 0px;
+}
