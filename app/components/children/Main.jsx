@@ -63,9 +63,9 @@ const Main = React.createClass({
       <div className="container" style={ {backgroundColor: "white", borderStyle: "solid", borderWidth: "1px"} }>
 
         <div className="page-header">
-          <h1 className="text-center"><img style={ {width: "70%"} } src="img/nyt-header.svg" alt="The New York Times"/></h1>
-          <h2 className="text-center" style={ {marginTop: "-12px"} }><b><i>Article Scraper</i></b></h2>
-          <h4 className="text-center">Search for a topic. Click on the link to open.</h4>
+          <h1 className="text-center"><img style={ {width: "20%"} } src="assets/images/120px-Newspaper.png" alt="New York Times scraper"/></h1>
+          <h2 className="text-center" style={ {marginTop: "-12px"} }><b><i>New York Times Article Scraper</i></b></h2>
+          <h4 className="text-center">Type in a topic and click on the article to open. Save it for later reference.</h4>
         </div>
 
         <Query _setSearchFeilds={this._setSearchFeilds} />
