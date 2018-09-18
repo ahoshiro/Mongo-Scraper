@@ -22079,7 +22079,7 @@
 	        React.createElement(
 	          "h1",
 	          { className: "text-center" },
-	          React.createElement("img", { style: { width: "70%" }, src: "images/120px-Newspaper.png", alt: "New York Times Scraper" })
+	          React.createElement("img", { style: { width: "20%" }, src: "assets/images/120px-Newspaper.png", alt: "New York Times Scraper" })
 	        ),
 	        React.createElement(
 	          "h2",
@@ -22090,7 +22090,7 @@
 	            React.createElement(
 	              "i",
 	              null,
-	              "Scrape Articles"
+	              "New York Times Scrape Articles"
 	            )
 	          )
 	        ),
