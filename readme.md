@@ -10,8 +10,7 @@ An app that scrapes articles from the New York Times website and lets users save
 - Body-parser.js
 - logger
 - path
-- Cheerio
-- Handlebars.js
+- Morgan
 - MongoDB
 - Mongoose
 - request

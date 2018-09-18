@@ -1,35 +1,29 @@
-// Require mongoose
-var mongoose = require("mongoose");
-var Note = require("./Note");
-// Create Schema class
-var Schema = mongoose.Schema;
+const mongoose = require('mongoose');// Require Mongoose
+const Schema = mongoose.Schema; // Create a Schema Class
+const ArticleSchema = new Schema({ // Create Article Schema
 
-// Create article schema
-var ArticleSchema = new Schema({
+  // Title of Article
   title: {
     type: String,
     required: true
   },
-  summary: {
+
+  // Date of Article
+  date: {
     type: String,
     required: true
   },
-  link: {
+  
+  // Link to Article
+  url: {
     type: String,
     required: true
-  },
-  saved: {
-    type: Boolean,
-    default: false
-  },
-  notes: [{
-     type: Schema.Types.ObjectId,
-     ref: "Note"
-  }]
+  }
+
 });
 
-// Create the Article model with the ArticleSchema
-var Article = mongoose.model("Article", ArticleSchema);
+// Create the Article model with Mongoose
+var Article = mongoose.model('Article', ArticleSchema);
 
-// Export the model
+// Export the Model
 module.exports = Article;
