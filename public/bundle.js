@@ -22072,14 +22072,14 @@
 	  render: function render() {
 	    return React.createElement(
 	      "div",
-	      { className: "container", style: { backgroundColor: "white", borderStyle: "solid", borderWidth: "1px" } },
+	      { className: "container", style: { backgroundColor: "blue", borderStyle: "solid", borderWidth: "1px" } },
 	      React.createElement(
 	        "div",
 	        { className: "page-header" },
 	        React.createElement(
 	          "h1",
 	          { className: "text-center" },
-	          React.createElement("img", { style: { width: "70%" }, src: "img/nyt-header.svg", alt: "The New York Times" })
+	          React.createElement("img", { style: { width: "70%" }, src: "images/120px-Newspaper.png", alt: "New York Times Scraper" })
 	        ),
 	        React.createElement(
 	          "h2",
@@ -22090,14 +22090,14 @@
 	            React.createElement(
 	              "i",
 	              null,
-	              "A React Rendition"
+	              "Scrape Articles"
 	            )
 	          )
 	        ),
 	        React.createElement(
 	          "h4",
 	          { className: "text-center" },
-	          "Search for and annotate articles of interest. Click on headlines to learn more."
+	          "Type in a topic and click on the article to open. Save it for later reference."
 	        )
 	      ),
 	      React.createElement(Query, { _setSearchFeilds: this._setSearchFeilds }),
