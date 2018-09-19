@@ -23,7 +23,7 @@ app.use(express.static(process.cwd() + '/public'));
 // Connect to the Mongo DB
 if(process.env.NODE_ENV == 'production'){
   // Use link given by Heroku Mongo, if no connection it will go local
-  mongoose.connect('mongodb://ahoshiro:<dbpassword>@ds143340.mlab.com:43340/heroku_j1hbm0m3');
+  mongoose.connect('mongodb://heroku_j1hbm0m3:3890d5kgrq82i1g557ihgs0qip@ds143340.mlab.com:43340/heroku_j1hbm0m3');
 }
 else{
   mongoose.connect('mongodb://localhost/nytreact');
